@@ -232,9 +232,8 @@ print("El promedio multilpicativo es "+ str(promult))
 print("los numeros en orden descendente son ("+ str(m5)+ ", "+ str(m4)+", "+ str(m3)+ ", "+str(m2)+ ", "+str(m1) +")") 
 print("los numeros en orden ascendente son ("+ str(m1)+ ", "+ str(m2)+", "+ str(m3)+ ", "+str(m4)+ ", "+str(m5) +")") 
 print("la potencia del mayor numero elvado el menor numero  es "+ str(potencia))
-print("la raiz del menor número es " + str (raizm)). 
-
-
+print("la raiz del menor número es " + str (raizm)) 
+```
 ## Programa Funcionando:
 [![image.png](https://i.postimg.cc/fWPVZQVL/image.png)](https://postimg.cc/14pmcTch)
 ## Punto 9:

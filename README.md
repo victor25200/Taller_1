@@ -239,5 +239,93 @@ print("la raiz del menor número es " + str (raizm))
 ## Punto 9:
 Escriba un programa que reciba el nombre en minúsculas de un país de America y devuelva la ciudad capital, si el país no pertenece al continente debe arrojar pais no identificado
 ## Codigo:
+```python
+pais = input("ingrese un país de america en minisculas ")
+char1 = "antigua y barbuda"; char2 = "argentina"; char3 = "bahamas "
+char4 = "barbados "; char5 = "belice"; char6 = "bolivia"
+char7 = "brasil"; char8 = "canada"; char9 = "chile"
+char10 = "colombia"; char11 = "costa rica"; char12 = "cuba "
+char13 = "dominica"; char14 = "ecuador"; char15 = "el salvador"
+char16 = "estados unidos "; char17 = "granada"; char18 = "guatemala"
+char19 = "guyana"; char20 = "haiti"; char21 = "honduras"
+char22 = "jamaica"; char23 = "mexico "; char24 = "nicaragua"
+char25 = "panama"; char26 = "paraguay"; char27 = "peru"
+char28 = "republica dominicana"; char29 = "san cristibal y nieves"
+char30 = "san vicente y las granadinas "; char31 = "santa lucia"
+char32 = "surinam"; char33 = "trinidad y tovago "
+char34 = "uruguay"; char35 = "venezuela"
+if pais == char1 :
+    print("la capital de "  + str(pais)+ " es saint john")
+elif pais == char2 :
+    print("la capital de "  + str(pais)+ " es buenos aires ")
+elif pais == char3 :
+    print("la capital de "  + str(pais)+ " es nasau")
+elif pais == char4 :
+    print("la capital de "  + str(pais)+ " es bridgertown")
+elif pais == char5 :
+    print("la capital de "  + str(pais)+ " es belmopan")
+elif pais == char6 :
+    print("la capital de "  + str(pais)+ " es sucre")
+elif pais == char7 :
+    print("la capital de "  + str(pais)+ " es brasilia")
+elif pais == char8 :
+    print("la capital de "  + str(pais)+ " es ottawa")
+elif pais == char9 :
+    print("la capital de "  + str(pais)+ " es santiago")
+elif pais == char10 :
+    print("la capital de "  + str(pais)+ " es bogota")
+elif pais == char11 :
+    print("la capital de "  + str(pais)+ " es san jose")
+elif pais == char12 :
+    print("la capital de "  + str(pais)+ " es la habana")
+elif pais == char13 :
+    print("la capital de "  + str(pais)+ " es roseau")
+elif pais == char14 :
+    print("la capital de "  + str(pais)+ " es quito")
+elif pais == char15 :
+    print("la capital de "  + str(pais)+ " es san salvador")
+elif pais == char16 :
+    print("la capital de "  + str(pais)+ " es washintown")
+elif pais == char17 :
+    print("la capital de "  + str(pais)+ " es saint george")
+elif pais == char18 :
+    print("la capital de "  + str(pais)+ " es ciudad de guatemala")
+elif pais == char19 :
+    print("la capital de "  + str(pais)+ " es georgetown")
+elif pais == char20 :
+    print("la capital de "  + str(pais)+ " es puerto principe")
+elif pais == char21 :
+    print("la capital de "  + str(pais)+ " es tegucigalpa")
+elif pais == char22 :
+    print("la capital de "  + str(pais)+ " es kinston")
+elif pais == char23 :
+    print("la capital de "  + str(pais)+ " es ciudad de mexico")
+elif pais == char24 :
+    print("la capital de "  + str(pais)+ " es managua")
+elif pais == char25 :
+    print("la capital de "  + str(pais)+ " es ciudad de panama")
+elif pais == char26 :
+    print("la capital de "  + str(pais)+ " es asunción ")
+elif pais == char27 :
+    print("la capital de "  + str(pais)+ " es lima")
+elif pais == char28 :
+    print("la capital de "  + str(pais)+ " es santo domingo")
+elif pais == char29 :
+    print("la capital de "  + str(pais)+ " es basseterre")
+elif pais == char30 :
+    print("la capital de "  + str(pais)+ " es kingstown")
+elif pais == char31 :
+    print("la capital de "  + str(pais)+ " es castris")
+elif pais == char32 :
+    print("la capital de "  + str(pais)+ " es paramaribo")
+elif pais == char33 :
+    print("la capital de "  + str(pais)+ " es purto españa")
+elif pais == char34 :
+    print("la capital de "  + str(pais)+ " es montevideo ")
+elif pais == char35 :
+    print("la capital de "  + str(pais)+ " es caracas")
+else:
+    print("país no identificado")
+```
 ## Programa Funcionando:
 ## Diagrama de flujo .

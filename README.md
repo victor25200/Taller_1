@@ -330,3 +330,4 @@ else:
 ## Programa Funcionando:
 [![image.png](https://i.postimg.cc/FKZ4CGgQ/image.png)](https://postimg.cc/Y4hZh6sX)
 ## Diagrama de flujo .
+[![image.png](https://i.postimg.cc/5NhgDVnw/image.png)](https://postimg.cc/YhxQmJc9)

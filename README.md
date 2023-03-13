@@ -34,6 +34,7 @@ Escriba un programa que pida 5 números reales y calcule las siguientes operacio
 
 ## Codigo:
 ```python
+# Se declaran las variables que va se van a utilizar en el programa
 a:float
 b:float 
 c:float
@@ -48,14 +49,21 @@ promedio : float
 potencia : float
 promult : float 
 raizm : float 
+# Se pide lque se ingresen los 5 números reales 
 a = float(input("Ingrese el primer número real: "))
 b = float(input("Ingrese el segundo número real: "))
 c = float(input("Ingrese el tercer número real: "))
 d = float(input("Ingrese el cuarto número real: "))
 e = float(input("Ingrese el quinto número real: "))
+# El programa nos imprimira los números ingresados 
 print ("los números ingresados son ("+ str(a)+ ", "+ str(b)+", "+ str(c)+ ", "+str(d)+ ", "+str(e) +")" )
+# Se calcula el promedio por lo que se dividira los suma de los números ingresados por 5 que es la 
+# la cantidad de tatos que se tienen que ingresar 
 promedio = (a+b+c+d+e)/5
+# se imprime el resultado del promedio 
 print("El promedio es "+ str(promedio))
+# se utilizan  condicionales para indicarnos cual variable es menor que otra y hacirla a esta variable un
+# nuevo nombre la mas pequeña sera m1, luego m2, m3 m4 y  m5 que sera la mas grande 
 if a<b and a<c and a<d and a<e:
     m1=a
     if b<c and b<d and b<e:
@@ -227,15 +235,19 @@ if e<b and e<c and e<d and e<a:
               m4=b ; m5=d 
           else : 
              m4=d ; m5=b  
+# Se calcula la potencia del numero mayor elavado al menor
 potencia = m5**m1
+# se calcula el promedio multiplicativo
 promult= (m1*m2*m3*m4*m5)**(1/5)
+# se calcula la raiz del número menor 
 raizm = (m1)**(1/2)
+# se imprimen los resultados 
 print("la mediana es "+ str(m3))
 print("El promedio multilpicativo es "+ str(promult))
 print("los numeros en orden descendente son ("+ str(m5)+ ", "+ str(m4)+", "+ str(m3)+ ", "+str(m2)+ ", "+str(m1) +")") 
 print("los numeros en orden ascendente son ("+ str(m1)+ ", "+ str(m2)+", "+ str(m3)+ ", "+str(m4)+ ", "+str(m5) +")") 
 print("la potencia del mayor numero elvado el menor numero  es "+ str(potencia))
-print("la raiz del menor número es " + str (raizm)) 
+print("la raiz del menor número es " + str (raizm))
 ```
 ## Programa Funcionando:
 [![image.png](https://i.postimg.cc/fWPVZQVL/image.png)](https://postimg.cc/14pmcTch)

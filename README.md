@@ -28,6 +28,14 @@ if a%2 == 0:
 else:
   print("El numero "+str(a)+" es impar")
 ```
+
+```mermaid
+flowchart TD
+    A(Determine si a es par o impar) --> B[a = int]
+    B --> C{a%2 == 0}
+    C --> |no| D[a es número impar]
+    C --> |si| E[a es un número par]
+```
 ## - Punto 4:
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ## Codigo:

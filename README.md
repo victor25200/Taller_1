@@ -19,7 +19,41 @@ Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el 
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
 
 ## - Punto 3:
-Realice un programa que lea un número enteros y determine si es par o impar.
+Problema: Realice un programa que lea un número enteros y determine si es par o impar.
+
+Para resolver el anterior ejercicio se debe tener en cuenta los operadores aritméticos propios del lenguaje de progrmación en Python, específicamente el del módulo, el cual usa el símbolo (%) y nos retorna el residuo de la división entre dos números.
+  1. Declarar la variable.
+  ```sh
+  a : int
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225163787-c02e1944-43c0-4141-9e8e-e366eb7c35da.png)
+  
+  2. Solicitar el ingreso de una cifra numérica.
+   ```sh
+  a = int(input("Ingrese un numero: "))
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225164014-15ab2a92-c199-4443-ab6a-57d3dbe0d9de.png)
+  
+  3. Usando el operador artimético del módulo (%) se determina si el residuo de la división del valor ingresado entre dos es igual a 0.
+   ```sh
+  if a%2 == 0:
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225164385-c19fb557-2e60-4faf-9c90-f92d67d33caa.png)
+  
+  4. Si es verdadera la afirmación imprimir que el número ingresado efectivamente es un dígito par.
+  ```sh
+  print("El numero "+str(a)+" es par")
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225164774-644c4fc5-8bca-47e9-9248-dc48c0eccdba.png)
+  
+  5. Si no se cumple el condicional, imprimir que el número ingresado es impar.
+  ```sh
+  else:
+  print("El numero "+str(a)+" es impar")
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225164902-f1492e63-99b2-4dd5-af41-35b88fb635a6.png)
+
+A continuación el pseudocódigo completo de la solución al problema:
 ```sh
 a : int
 a = int(input("Ingrese un numero: ")) 
@@ -29,6 +63,16 @@ else:
   print("El numero "+str(a)+" es impar")
 ```
 
+El programa funcionando se ve de la siguiente forma:
+Ingresando como ejemplo el número 5
+![image](https://user-images.githubusercontent.com/124615034/225165156-0e841b87-182c-4e40-a682-a481ec705c98.png)
+![image](https://user-images.githubusercontent.com/124615034/225165176-f3bbccb8-24ce-4cc6-934c-4a99ae570743.png)
+
+Ingresando como ejemplo el número 32
+![image](https://user-images.githubusercontent.com/124615034/225165326-c2b07de7-63f5-478f-916e-a1082012243f.png)
+![image](https://user-images.githubusercontent.com/124615034/225165352-2b00d3d0-f327-4980-8cc2-5b05726ab75e.png)
+
+El siguiente diagrama de flujo explica de manera visual el proceso mencionado anteriormente:
 ```mermaid
 flowchart TD
     A(Determine si a es par o impar) --> B[a = int]

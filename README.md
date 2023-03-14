@@ -9,9 +9,17 @@ Espero que se encuentren excelente estimados lectores, en el presente repo desar
 ## - Punto 1:
 Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
-Quiz Victor Sebastian Santiago Acosta
+- Quiz Juan Camilo Morales Hernandez:
+
+
+- Quiz Arturo Moreno Covaría:
+
+
+- Quiz Victor Sebastian Santiago Acosta:
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
-## Punto 4:
+
+## - Punto 3:
+## - Punto 4:
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ## Codigo:
 ```python

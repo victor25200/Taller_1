@@ -1,6 +1,7 @@
 # Taller_1
 ## Punto 1:
 Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
+Victor Sebastian Santiago Acosta
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
 ## Punto 4:
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.

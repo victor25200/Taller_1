@@ -255,7 +255,9 @@ print("la raiz del menor número es " + str (raizm))
 Escriba un programa que reciba el nombre en minúsculas de un país de America y devuelva la ciudad capital, si el país no pertenece al continente debe arrojar pais no identificado
 ## Codigo:
 ```python
+# Se pide al usuario  que ingre un pais 
 pais = input("ingrese un país de america en minisculas ")
+# se declaran variables con nombres de los paises de america
 char1 = "antigua y barbuda"; char2 = "argentina"; char3 = "bahamas "
 char4 = "barbados "; char5 = "belice"; char6 = "bolivia"
 char7 = "brasil"; char8 = "canada"; char9 = "chile"
@@ -269,6 +271,8 @@ char28 = "republica dominicana"; char29 = "san cristibal y nieves"
 char30 = "san vicente y las granadinas "; char31 = "santa lucia"
 char32 = "surinam"; char33 = "trinidad y tovago "
 char34 = "uruguay"; char35 = "venezuela"
+# El programa busca si el pais ingresado corresponde con una de las variables preestablecidas
+# si  es asi el programa imprime la capital si no imprime pais no identificado 
 if pais == char1 :
     print("la capital de "  + str(pais)+ " es saint john")
 elif pais == char2 :

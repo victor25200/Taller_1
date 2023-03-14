@@ -19,6 +19,15 @@ Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el 
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
 
 ## - Punto 3:
+Realice un programa que lea un número enteros y determine si es par o impar.
+```sh
+a : int
+a = int(input("Ingrese un numero: ")) 
+if a%2 == 0:
+  print("El numero "+str(a)+" es par")
+else:
+  print("El numero "+str(a)+" es impar")
+```
 ## - Punto 4:
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ## Codigo:

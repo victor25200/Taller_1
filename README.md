@@ -47,11 +47,24 @@ if a%b==0:
   print("El primer numero es multiplo del segundo")
 else:
   print("El primer numero no es multiplo del segundo")
+ ```
 ## Programa Funcionando:
 [![image.png](https://i.postimg.cc/d1xrzkMQ/image.png)](https://postimg.cc/HcbrMLsF)
 
 [![image.png](https://i.postimg.cc/cLBDPmFs/image.png)](https://postimg.cc/87sB6h83)
-## Punto 7:
+
+
+## - Punto 6:
+Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+```sh
+a = input ("ingrese una letra")
+if a in ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']:
+ print("la letra "+str(a)+" es una vocal")
+else:
+ print ("la letra "+str(a)+" es una consonante")
+```
+
+## - Punto 7:
 Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 - El promedio
@@ -380,3 +393,27 @@ else:
 [![image.png](https://i.postimg.cc/FKZ4CGgQ/image.png)](https://postimg.cc/Y4hZh6sX)
 ## Diagrama de flujo .
 [![image.png](https://i.postimg.cc/5NhgDVnw/image.png)](https://postimg.cc/YhxQmJc9)
+
+## - Punto 10:
+Escriba un programa que dada una distancia calcule:
+
+El tiempo que le tomaría a la luz recorrer la distancia.
+El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+El tiempo que le tomaría a Bolt recorrer la distancia.
+
+```sh
+a = 299792458
+c = 343
+d = 141.111
+e = 10.44
+b = float(input("ingrese el valor de la distancia en m"))
+tiempo1 = b / a
+tiempo2 = b / c
+tiempo3 = b / d
+tiempo4 = b / e
+print("la luz tarda "+str(tiempo1)+" segundos en recorrer "+str(b)+" metros")
+print("El sonido tarda "+str(tiempo2)+" segundos en recorrer "+str(b)+" metros en el aire")
+print("El vehículo comercial más rápido tardaría "+str(tiempo3)+" segundos en recorrer "+str(b)+" metros")
+print("Usain Bolt tardaría "+str(tiempo4)+" segundos en recorrer "+str(b)+" metros")
+```

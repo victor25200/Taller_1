@@ -1,4 +1,9 @@
-# Taller_1
+# Taller #1
+
+**Equipo:  "Los comillas"**
+- Juan Camilo Morales Hernandez
+- Arturo Moreno Covaría
+- Victor Sebastián Santiago Acosta
 ## Punto 1:
 Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 

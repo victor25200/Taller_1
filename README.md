@@ -4,7 +4,9 @@
 - Juan Camilo Morales Hernandez
 - Arturo Moreno Covaría
 - Victor Sebastián Santiago Acosta
-## Punto 1:
+
+Espero que se encuentren excelente estimados lectores, en el presente repo desarrollaremos los puntos propuestos en el [taller número 1](https://github.com/fegonzalez7/pdc_unal_clase8), de nuestra clase de programación de computadores.
+## - Punto 1:
 Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
 Quiz Victor Sebastian Santiago Acosta

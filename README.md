@@ -68,7 +68,7 @@ print ("los números ingresados son ("+ str(a)+ ", "+ str(b)+", "+ str(c)+ ", "+
 promedio = (a+b+c+d+e)/5
 # se imprime el resultado del promedio 
 print("El promedio es "+ str(promedio))
-# se utilizan  condicionales para indicarnos cual variable es menor que otra y hacirla a esta variable un
+# se utilizan  condicionales para indicarnos cual variable es menor que otra y asignarle alas  variables un
 # nuevo nombre la mas pequeña sera m1, luego m2, m3 m4 y  m5 que sera la mas grande 
 if a<b and a<c and a<d and a<e:
     m1=a

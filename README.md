@@ -23,6 +23,43 @@ Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el 
 
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
 
+## - Punto 2:
+Problema: Realice un programa que lea tres números reales y determine cuál es el mayor.
+
+Para utilizamos los conocimientos previos vistos en clase, para este fue fundamental el and y el mayor que, ya que para comparar los 2 número necesitabamos comparar que número era mayor y el "and" para saber si ese número era mayor que los otros dos y si es así nos dijera que es verdadero. Se adjunta imagen, la caja donde se explica linea por linea del código y el diagrama de flujo.
+![image](https://user-images.githubusercontent.com/124615019/225359270-de2ef73e-cd52-48a0-9919-24dae71b13da.png)
+
+```
+x : float # Se declaro la variable x
+y : float # Se declaro la variable y
+g : float # Se declaro la variable g
+x = float(input("Ingrese el primer número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+y = float(input("Ingrese el segundo número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+g = float(input("Ingrese el tercer número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+if x > y and x > g : # Se pone un condicional
+    print(""+ str(x) +" es el número mayor de los 3 ingresados.") # Sí cumple el condicional anterior, impirme la siguiente oracíon
+elif y > x and y > g : # Sino cumplio el condicional anterior, se reliza este condicional
+    print(""+ str(y) +" es el número mayor de los 3 ingresados.") # Sí cumple el condicional imprime la siguiente oración 
+elif g > x and g > y : # Sino cumplio el condicional anterior, se reliza este condicional
+    print(""+ str(g) +" es el número mayor de los 3 ingresados.") # Sí cumple el condicional imprime la siguiente oración 
+```
+![mermaid-diagram-2023-03-15-105006](https://user-images.githubusercontent.com/124615019/225365770-17c292fe-d63e-4905-beed-eaf03076ea7f.png)
+
+El código del diagrama de flujo se encuentra para que lo prueben en mermaid.
+
+```
+flowchart TD
+    A[Variables] -->|"a, b, c"| B(inicio)
+    B --> C{ a es mayor que b y c?}
+    C --> |Sí| R[a es el número mayor]
+    C --> |Sino| D{ b es mayor que a y c?}
+    D --> |Sí| d[ b es el número mayor]
+    D --> |Sino| m{ c es mayor que a y b?}
+    m --> |Sí| k[c es el número mayor]
+    R --> h(fin)
+    d --> h(fin)
+    k --> h(fin)
+ ```
 ## - Punto 3:
 Problema: Realice un programa que lea un número enteros y determine si es par o impar.
 
@@ -110,6 +147,27 @@ else:
 
 [![image.png](https://i.postimg.cc/cLBDPmFs/image.png)](https://postimg.cc/87sB6h83)
 
+## - Punto 5:
+Problema: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+
+Para resolver utilizamos las desigualdades y los condicionales, en los 3 casos donde sea mayor, menor o igual.
+
+![image](https://user-images.githubusercontent.com/124615019/225361688-ade356b8-7876-462a-b3c0-ce083a6557f5.png)
+
+```
+x : float # Se declaro la variable x
+y : float # Se declaro la variable y
+g : float # Se declaro la variable g
+x = float(input("Ingrese el primer número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+y = float(input("Ingrese el segundo número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+g = float(input("Ingrese el tercer número: ")) # Cada variable se declara y se reliaza el codigo para ingresar a cuanto equivale la variable
+if x + y > g : # Se condiciona, si la suma de los 2 primeros números son mayores
+    print("la suma de los 2 primero números ingresados es mayor al tercero.") # Sí se cumple la condición, imprime la oración
+elif x + y < g : # Sino cumplio la anterior condicíón, se realiza el siguiente condicional, la suma de los 2 primeros números es menor que el tercero
+    print("la suma de los 2 primero números ingresados es menor al tercero.") # Sí se cumple la condición, imprime la oración
+else: # Sino cumple ninguna
+     print("la suma de los 2 primero números ingresados es igual al tercero.") # imprime la oración
+```
 
 ## - Punto 6:
 Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
@@ -402,6 +460,50 @@ print("la raiz del menor número es " + str (raizm))
 ```
 ## Programa Funcionando:
 [![image.png](https://i.postimg.cc/fWPVZQVL/image.png)](https://postimg.cc/14pmcTch)
+## Punto 8:
+Problema: Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+Para este problema toco buscar las regiones del espectroelectromagnetico, para realizar los condicionales de los rangos se utilizo mayor, menor y "and".
+
+![image](https://user-images.githubusercontent.com/124615019/225364623-d9a53fd9-5339-452f-a41f-21d3c4ca40fb.png)
+
+
+```
+a : float # Se declara la variable a
+a = float(input("Ingrese la frecuencia en Hz sin notación científica: ")) # Se ingresa la frecuencia a la que se le quiere hallar su region
+if a < 30 * 10**3 : # Se define un rango para saber si la frecuencia dada se encuentra en esa región
+    print('La frecuencia que ingreso se encuentra en la región "Muy Baja Frecuencia"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 30 * 10**3 and a < 650 * 10**3 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Onda Larga"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 650 * 10**3 and a <  1.7 * 10**6 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Onda Media"') # Sí se encuentra en ese rango. imprime la oración
+elif a >=  1.7 * 10**6 and a < 30 * 10**6: # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Onda Corta"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 30 * 10**6 and a < 300 * 10**6 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Muy Alta Frecuencia"') # Sí se encuentra en ese rango. imprime la oración
+elif  a >= 300 * 10**6 and a < 3 * 10**8 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Ultra Alta Frecuencia"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 3 * 10**8 and a < 300 * 10**9 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Microondas"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 300 * 10**9 and a < 6 * 10**12 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+     print('La frecuencia que ingreso se encuentra en la región "Infrarrojo lejano/submilimétrico"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 6 * 10**12 and a < 120 * 10**12 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Infrarrojo medio"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 120 * 10**12 and a < 384 * 10**12 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Infrarrojo cercano"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 384 * 10**12 and a < 7.89 * 10**14 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Espectro Visible"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 7.89 * 10**14 and a < 1.5 * 10**15 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Ultravioleta cercano"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 1.5 * 10**15 and a < 30 * 10**15 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Ultravioleta extremo"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 30 * 10**15 and a < 30 * 10**18 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Rayos X"') # Sí se encuentra en ese rango. imprime la oración
+elif a >= 30 * 10**18 : # Sino esta en el rango anterior, se evalua si se encuentra en este rango
+    print('La frecuencia que ingreso se encuentra en la región "Rayos gamma"') # Sí se encuentra en ese rango. imprime la oración
+else: # Sino se encuentra en ningun rango
+    print("No hay frenciencias negativas") # Sí no se encuentra es porque se ingreso un número negativo
+```
 ## Punto 9:
 Escriba un programa que reciba el nombre en minúsculas de un país de America y devuelva la ciudad capital, si el país no pertenece al continente debe arrojar pais no identificado
 ## Codigo:
@@ -583,7 +685,7 @@ print("El sonido tarda "+str(tiempo2)+" segundos en recorrer "+str(b)+" metros e
 print("El vehículo comercial más rápido tardaría "+str(tiempo3)+" segundos en recorrer "+str(b)+" metros")
 print("Usain Bolt tardaría "+str(tiempo4)+" segundos en recorrer "+str(b)+" metros")
 ```
-
+##
 De esta manera se ve el código funcionando
 ![image](https://user-images.githubusercontent.com/124615034/225202323-74c154fd-32a2-4f38-82f4-13fae886d52a.png)
 

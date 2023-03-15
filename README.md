@@ -505,14 +505,51 @@ else:
 ## - Punto 10:
 Problema: Escriba un programa que dada una distancia calcule
 
-El tiempo que le tomaría a la luz recorrer la distancia.
-El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
-El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
-El tiempo que le tomaría a Bolt recorrer la distancia.
+* El tiempo que le tomaría a la luz recorrer la distancia.
+* El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+* El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+* El tiempo que le tomaría a Bolt recorrer la distancia.
 
-Para resolver dicho problema se debe tener en cuenta determinadas constantes físicas, tales como la velocidad de la luz, la velocidad del sonido en el aire, entre otras otras.
+Para resolver dicho problema se debe tener en cuenta determinadas constantes físicas, tales como la velocidad de la luz, la velocidad del sonido en el aire, entre otras.
 
-1. Declarar las constantes que se usarán en una misma unidad de medida.
+| Constante | Valor en (m/s) |
+| ------ | ------ |
+| Velocidad de la luz | 299792458 |
+| Velocidad del sonido en el aire | 343 |
+| Velocidad máxima del vehículo comercial más veloz | 141.111 |
+| Velocidad de Usaint Bolt en Berlín 2009 | 10.44
+
+1. Declarar las constantes que se usarán como tipo flotantes.
+   ```sh
+   a = float
+   b = float
+   c = float
+   d = float
+   e = float
+    ```
+      ![image](https://user-images.githubusercontent.com/124615034/225197412-537e65a5-0543-429a-911f-2a525e5d3c07.png)
+ 
+  
+ 2. Establecer las determinadas variables físicas en una misma unidad de medida, en este caso la unidad de medida será el metro por segundo (m/s)
+   ```sh
+   a = 299792458 # Velocidad de la luz
+   c = 343 # Velocidad del sonido en el aire
+   d = 141.111 # Velocidad vehículo comercial más veloz
+   e = 10.44 # Velocidad Usain Bolt
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/124615034/225197966-2872b3f9-c510-4cfd-a339-9601715d6c51.png)
+   
+   
+  3. Solicitar el ingreso del valor de la distancia
+   ```sh
+   b = float(input("ingrese el valor de la distancia en m: "))
+   ```
+  ![image](https://user-images.githubusercontent.com/124615034/225198202-fa4be507-44dc-40af-851b-103bbdec160c.png)
+  
+  4. Establecer las relaciones
+
+
 
 ```sh
 a = 299792458

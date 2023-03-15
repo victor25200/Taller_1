@@ -547,9 +547,26 @@ Para resolver dicho problema se debe tener en cuenta determinadas constantes fí
    ```
   ![image](https://user-images.githubusercontent.com/124615034/225198202-fa4be507-44dc-40af-851b-103bbdec160c.png)
   
-  4. Establecer las relaciones
+  4. Establecer las relaciones entre las variables presentes, dividiendo la distancia entre la velocidad, para que de esta manera se tenga el tiempo en segundos como resultado. 
+  ```sh
+   tiempo1 = b / a
+   tiempo2 = b / c
+   tiempo3 = b / d
+   tiempo4 = b / e
+   ```
+   ![image](https://user-images.githubusercontent.com/124615034/225201833-84920632-8faa-41c8-aaa8-912ba8c2993f.png)
+   
+   5. Imprimir los valores del tiempo, relacionandos con cada velocidad establecida anteriormente.
+   ```sh
+   print("la luz tarda "+str(tiempo1)+" segundos en recorrer "+str(b)+" metros")
+   print("El sonido tarda "+str(tiempo2)+" segundos en recorrer "+str(b)+" metros en el aire")
+   print("El vehículo comercial más rápido tardaría "+str(tiempo3)+" segundos en recorrer "+str(b)+" metros")
+   print("Usain Bolt tardaría "+str(tiempo4)+" segundos en recorrer "+str(b)+" metros")
+   ```
+   ![image](https://user-images.githubusercontent.com/124615034/225202001-a020ab31-2d24-4034-9765-4dea73b22e31.png)
 
 
+Así es el código completo que resulve y ejecuta el problema en cuestión
 
 ```sh
 a = 299792458
@@ -566,3 +583,9 @@ print("El sonido tarda "+str(tiempo2)+" segundos en recorrer "+str(b)+" metros e
 print("El vehículo comercial más rápido tardaría "+str(tiempo3)+" segundos en recorrer "+str(b)+" metros")
 print("Usain Bolt tardaría "+str(tiempo4)+" segundos en recorrer "+str(b)+" metros")
 ```
+
+De esta manera se ve el código funcionando
+![image](https://user-images.githubusercontent.com/124615034/225202323-74c154fd-32a2-4f38-82f4-13fae886d52a.png)
+
+![image](https://user-images.githubusercontent.com/124615034/225202387-63982804-a75e-49af-bfae-9c73fc2b1f9c.png)
+

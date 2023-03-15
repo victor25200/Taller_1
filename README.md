@@ -12,10 +12,15 @@ Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el 
 - Quiz Juan Camilo Morales Hernandez:
 
 
+
 - Quiz Arturo Moreno Covaría:
+
+![image](https://user-images.githubusercontent.com/124615034/225171903-805a046a-65b8-4dcd-8114-bc55aa102917.png)
+
 
 
 - Quiz Victor Sebastian Santiago Acosta:
+
 [![image.png](https://i.postimg.cc/0Ns0V0cx/image.png)](https://postimg.cc/nX3mz7yw)
 
 ## - Punto 3:

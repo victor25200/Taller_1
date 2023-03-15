@@ -271,176 +271,176 @@ print ("los números ingresados son ("+ str(a)+ ", "+ str(b)+", "+ str(c)+ ", "+
 promedio = (a+b+c+d+e)/5
 # se imprime el resultado del promedio 
 print("El promedio es "+ str(promedio))
-# se utilizan  condicionales para indicarnos cual variable es menor que otra y asignarle alas  variables un
+# se utilizan  condicionales para indicarnos cual variable es menor que otra y hacirla a esta variable un
 # nuevo nombre la mas pequeña sera m1, luego m2, m3 m4 y  m5 que sera la mas grande 
-if a<b and a<c and a<d and a<e:
+if a<=b and a<=c and a<=d and a<=e:
     m1=a
-    if b<c and b<d and b<e:
+    if b<=c and b<d and b<=e:
        m2=b
-       if c<d and c<e:
+       if c<=d and c<=e:
           m3=c
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif c<b and c<d and c<e:
+    elif c<=b and c<=d and c<=e:
        m2=c
-       if b<d and b<e:
+       if b<=d and b<=e:
           m3=b
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif d<b and d<c and d<e:
+    elif d<=b and d<=c and d<=e:
        m2=d
-       if b<c and b<e:
+       if b<=c and b<=e:
           m3=b
-          if c<e:
+          if c<=e:
               m4=c ; m5=e 
           else : 
              m4=e ; m5=c
-    elif e<b and e<c and e<d:
+    elif e<=b and e<=c and e<=d:
        m2=e
-       if b<c and b<d:
+       if b<=c and b<=d:
           m3=b
-          if b<d:
+          if b<=d:
               m4=b ; m5=d
           else : 
              m4=d ; m5=b 
-elif b<a and b<c and b<d and b<e:
+elif b<=a and b<=c and b<=d and b<=e:
     m1=b
-    if a<c and a<d and a<e:
+    if a<=c and a<=d and a<=e:
        m2=a 
-       if c<d and c<e:
+       if c<=d and c<=e:
           m3=c
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif c<a and c<d and c<e:
+    elif c<=a and c<=d and c<=e:
        m2=c
-       if a<d and a<e:
+       if a<=d and a<=e:
           m3=a
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif d<a and d<c and d<e:
+    elif d<=a and d<=c and d<=e:
        m2=d
-       if a<c and a<e:
+       if a<=c and a<e:
           m3=a
-          if c<e:
+          if c<=e:
               m4=c ; m5=e 
           else : 
              m4=e ; m5=c
-    elif e<a and e<c and e<d:
+    elif e<=a and e<=c and e<=d:
        m2=e
        if a<c and a<d:
           m3=a
-          if a<d:
+          if a<=d:
               m4=a ; m5=d 
           else : 
              m4=d ; m5=a
-if c<b and c<a and c<d and c<e:
+if c<=b and c<=a and c<=d and c<=e:
     m1=c
-    if b<a and b<d and b<e:
+    if b<=a and b<=d and b<=e:
        m2=b 
-       if a<d and a<e:
+       if a<=d and a<=e:
           m3=a
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif a<b and a<d and a<e:
+    elif a<=b and a<=d and a<=e:
        m2=a
-       if b<d and b<e:
+       if b<=d and b<=e:
           m3=b
-          if d<e:
+          if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif d<b and d<a and d<e:
+    elif d<=b and d<=a and d<=e:
        m2=d
-       if b<a and b<e:
+       if b<=a and b<=e:
           m3=b
           if a<e:
               m4=a ; m5=e 
           else : 
              m4=e ; m5=a 
-    elif e<b and e<a and e<d:
+    elif e<=b and e<=a and e<=d:
        m2=e
-       if b<a and b<d:
+       if b<=a and b<=d:
           m3=b
           if b<d:
               m4=b ; m5=d 
           else : 
              m4=d ; m5=b
-if d<b and d<c and d<a and d<e:
+if d<=b and d<=c and d<=a and d<=e:
     m1=d
-    if b<c and b<a and b<e:
+    if b<=c and b<=a and b<=e:
        m2=b 
-       if c<a and c<e:
+       if c<=a and c<=e:
           m3=c
           if a<e:
               m4=a ; m5=e 
           else : 
              m4=e ; m5=a 
-    elif c<b and c<a and c<e:
+    elif c<=b and c<=a and c<=e:
        m2=c
-       if b<a and b<e:
+       if b<=a and b<=e:
           m3=b
-          if d<e:
-            if d<e:
+          if d<=e:
+            if d<=e:
              m4=d ; m5=e 
           else : 
              m4=e ; m5=d 
-    elif a<b and a<c and a<e:
+    elif a<=b and a<=c and a<=e:
        m2=a
-       if b<c and b<e:
+       if b<=c and b<=e:
           m3=b
-          if c<e:
+          if c<=e:
               m4=c ; m5=e 
           else : 
              m4=e ; m5=c
-    elif e<b and e<c and e<a:
+    elif e<=b and e<=c and e<=a:
        m2=e
-       if b<c and b<a:
+       if b<=c and b<=a:
           m3=b
-          if b<a:
+          if b<=a:
               m4=b ; m5=a 
           else : 
              m4=a ; m5=b
-if e<b and e<c and e<d and e<a:
+if e<=b and e<=c and e<=d and e<=a:
     m1=e
-    if b<c and b<d and b<a:
+    if b<=c and b<=d and b<=a:
        m2=b 
-       if c<d and c<a:
+       if c<=d and c<=a:
           m3=c
-          if d<a:
+          if d<=a:
               m4=d ; m5=a 
           else : 
              m4=a ; m5=d 
-    elif c<b and c<d and c<a:
+    elif c<=b and c<=d and c<=a:
        m2=c
-       if b<d and b<a:
+       if b<=d and b<=a:
           m3=b
-          if d<a:
+          if d<=a:
               m4=d ; m5=a 
           else : 
              m4=a ; m5=d 
-    elif d<b and d<c and d<a:
+    elif d<=b and d<=c and d<=a:
        m2=d
-       if b<c and b<a:
+       if b<=c and b<=a:
           m3=b
-          if c<a:
+          if c<=a:
               m4=c ; m5=a 
           else : 
              m4=a ; m5=c 
-    elif a<b and a<c and a<d:
+    elif a<=b and a<=c and a<=d:
        m2=a
-       if b<c and b<d:
+       if b<=c and b<=d:
           m3=b
-          if b<d:
+          if b<=d:
               m4=b ; m5=d 
           else : 
              m4=d ; m5=b  

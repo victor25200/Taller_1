@@ -113,13 +113,64 @@ else:
 
 ## - Punto 6:
 Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+
+1. Solicitar el ingreso de una letra.
+  ```sh
+  a = str(input("Ingrese una letra: "))
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225175192-5d9d1d76-b684-45ac-93d9-2c1254ee8bcf.png)
+  
+2. Condicionar el ingreso de la variale con cada vocal, minúscula y mayúscula e imprimir que efectivamente el caracter ingresado es una vocal, si se cumple la condición.
+  ```sh
+ if a == "a" or a == "A":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "e" or a == "E":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "i" or a == "I":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "o" or a == "O":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "u" or a == "U":
+    print("la letra "+str(a)+" es una vocal")
+   ```
+  ![image](https://user-images.githubusercontent.com/124615034/225177286-6316dac6-bd24-49db-b60a-74495bf53c4c.png)
+
+3. Si no se cumple el anterior condicional imprimir que la letra ingresada corresponde a una consonante.
+  ```sh
+  else:
+    print("la letra "+str(a)+" es una consonante")
+  ```
+  ![image](https://user-images.githubusercontent.com/124615034/225178013-f127361d-8fa2-4437-ab22-73b91ba8ebed.png)
+
+A continuación el código correspondiente para determinar si una letra ingresada es vocal o consonante
 ```sh
-a = input ("ingrese una letra")
-if a in ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']:
- print("la letra "+str(a)+" es una vocal")
+a = str(input("Ingrese una letra: "))
+if a == "a" or a == "A":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "e" or a == "E":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "i" or a == "I":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "o" or a == "O":
+    print("la letra "+str(a)+" es una vocal")
+elif a == "u" or a == "U":
+    print("la letra "+str(a)+" es una vocal")
 else:
- print ("la letra "+str(a)+" es una consonante")
+    print("la letra "+str(a)+" es una consonante")
 ```
+
+El programa funcionando se ve de la siguiente manera:
+
+   Ejemplo con la letra "u":
+   
+![image](https://user-images.githubusercontent.com/124615034/225178453-b1b86cff-47e4-40da-9568-0d656cbdf215.png)
+![image](https://user-images.githubusercontent.com/124615034/225178421-518fc6ec-5619-41bf-a0f2-20002d5aab36.png)
+  
+  Ejemplo con la letra "w":
+  
+![image](https://user-images.githubusercontent.com/124615034/225178453-b1b86cff-47e4-40da-9568-0d656cbdf215.png)
+![image](https://user-images.githubusercontent.com/124615034/225178593-e6c7229b-8422-4150-b080-df4f0eada962.png)
+
 
 ## - Punto 7:
 Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:

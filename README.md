@@ -503,12 +503,16 @@ else:
 [![image.png](https://i.postimg.cc/5NhgDVnw/image.png)](https://postimg.cc/YhxQmJc9)
 
 ## - Punto 10:
-Escriba un programa que dada una distancia calcule:
+Problema: Escriba un programa que dada una distancia calcule
 
 El tiempo que le tomaría a la luz recorrer la distancia.
 El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
 El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
 El tiempo que le tomaría a Bolt recorrer la distancia.
+
+Para resolver dicho problema se debe tener en cuenta determinadas constantes físicas, tales como la velocidad de la luz, la velocidad del sonido en el aire, entre otras otras.
+
+1. Declarar las constantes que se usarán en una misma unidad de medida.
 
 ```sh
 a = 299792458

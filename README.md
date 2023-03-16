@@ -1,6 +1,8 @@
 # Taller #1
 
 **Equipo:  "Los comillas"**
+
+[![image.png](https://i.postimg.cc/Y2m7j7Vr/image.png)](https://postimg.cc/t7ywmKpw)
 - Juan Camilo Morales Hernandez
 - Arturo Moreno Covaría
 - Victor Sebastián Santiago Acosta

@@ -7,7 +7,7 @@
 
 Espero que se encuentren excelente estimados lectores, en el presente repo desarrollaremos los puntos propuestos en el [taller número 1](https://github.com/fegonzalez7/pdc_unal_clase8), de nuestra clase de programación de computadores.
 ## - Punto 1:
-Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
+Problema: Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
 - Quiz Juan Camilo Morales Hernandez:
 
@@ -123,7 +123,7 @@ flowchart TD
     C --> |si| E[a es un número par]
 ```
 ## - Punto 4:
-Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+Problema: Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ## Codigo:
 ```python
 # declaro las variables 
@@ -231,7 +231,7 @@ El programa funcionando se ve de la siguiente manera:
 
 
 ## - Punto 7:
-Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+Problema: Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 - El promedio
 - La mediana
@@ -505,7 +505,7 @@ else: # Sino se encuentra en ningun rango
     print("No hay frenciencias negativas") # Sí no se encuentra es porque se ingreso un número negativo
 ```
 ## Punto 9:
-Escriba un programa que reciba el nombre en minúsculas de un país de America y devuelva la ciudad capital, si el país no pertenece al continente debe arrojar pais no identificado
+Problema: Escriba un programa que reciba el nombre en minúsculas de un país de America y devuelva la ciudad capital, si el país no pertenece al continente debe arrojar pais no identificado
 ## Codigo:
 ```python
 # Se pide al usuario  que ingre un pais 
